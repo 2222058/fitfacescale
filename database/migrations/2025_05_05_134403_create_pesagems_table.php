@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('pesagems', function (Blueprint $table) {
-            $table->id();
+            $table->id();~
             $table->string('nome');
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->date('data_pesagem');
