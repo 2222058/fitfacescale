@@ -16,33 +16,33 @@ class PesagemSeeder extends Seeder
     $maria = User::where('email', 'maria@example.com')->first();
 
     Pesagem::create([
-        'user_id' => $francisco->id,
+        'user_id' => $joao->id,
         'data_pesagem' => '2024-04-01',
         'peso' => 83.0,
     ]);
 
     Pesagem::create([
-        'user_id' => $francisco->id,
+        'user_id' => $joao->id,
         'data_pesagem' => '2024-04-05',
         'peso' => 82.5,
     ]);
 
 
     Pesagem::create([
-        'user_id' => $francisco->id,
+        'user_id' => $joao->id,
         'data_pesagem' => '2024-04-10',
         'peso' => 84.0,
     ]);
 
     Pesagem::create([
-        'user_id' => $francisco->id,
+        'user_id' => $joao->id,
         'data_pesagem' => '2024-04-15',
         'peso' => 82.5,
     ]);
 
 
     Pesagem::create([
-        'user_id' => $duarte->id,
+        'user_id' => $maria->id,
         'data_pesagem' => '2024-04-01',
         'peso' => 68.0,
     ]);
